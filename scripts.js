@@ -1,4 +1,4 @@
-const itemsPerPage = 1300; // Number of items to display per page
+const itemsPerPage = 650; // Number of items to display per page
 const maxVisiblePages = 5; // Maximum number of visible page links
 const app = document.getElementById("app");
 const pagination = document.getElementById("pagination");

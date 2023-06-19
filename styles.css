@@ -2,8 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 30px;
   padding: 0;
-  background-color: #141414;
-  color: white;
   overflow-x: hidden;
 }
 
@@ -35,7 +33,6 @@ a {
   margin-bottom: 70px;
   white-space: nowrap;
   text-transform: capitalize;
-  color: ivory;
 }
 
 a img {
@@ -43,13 +40,11 @@ a img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: white;
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
 }
 
 a img:hover {
   background-color: rgb(255, 255, 255);
-  color: white;
   filter: brightness(85%);
   cursor: pointer;
 }

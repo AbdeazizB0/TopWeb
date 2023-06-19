@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  padding: 0;
+  background-color: #141414;
+  color: white;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: auto;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  height: 110px;
+  width: 110px;
+  margin-bottom: 70px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  color: ivory;
+}
+
+a img {
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+a img:hover {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  filter: brightness(85%);
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  color: #333;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination a.active {
+  background-color: #666;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pagination span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  color: #333;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.pagination input {
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.pagination button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.pagination .pagination-text {
+  font-size: 20px;
+  color: #666;
+  margin: 0 10px;
+}
